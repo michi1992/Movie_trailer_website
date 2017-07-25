@@ -1,7 +1,7 @@
 import media
 import fresh_tomatoes
 
-#create some movies
+# create some movie instances
 forrest_gump = media.Movie("Forrest Gump",
                            "https://images-na.ssl-images-amazon.com/images/M/MV5BYThjM2MwZGMtMzg3Ny00NGRkLWE4M2EtYTBiNWMzOTY0YTI4XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SY1000_CR0,0,757,1000_AL_.jpg",
                            "https://www.youtube.com/watch?v=uPIEn0M8su0")
@@ -14,6 +14,7 @@ into_the_wild = media.Movie("Into the Wild",
 captain_fantastic = media.Movie("Captain Fantastic",
                                 "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE5OTM0OTY5NF5BMl5BanBnXkFtZTgwMDcxOTQ3ODE@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
                                 "https://www.youtube.com/watch?v=D1kH4OMIOMc")
-#group the movies in a list
+
+# group the movie instances in a list
 movies = [forrest_gump, avengers, into_the_wild, captain_fantastic]
 fresh_tomatoes.open_movies_page(movies)     #this line does the magic and shows the website
