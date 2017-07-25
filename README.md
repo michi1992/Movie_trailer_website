@@ -18,4 +18,4 @@ $ python entertainment_center.py
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/michi1992/Movie_trailer_website/blob/master/LICENSE) file for details
